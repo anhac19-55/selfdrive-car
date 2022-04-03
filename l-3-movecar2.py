@@ -2,7 +2,7 @@ import pygame
 pygame.init()
 window = pygame.display.set_mode((1200, 400))
 track = pygame.image.load('track1.png')
-car = pygame.image.load('c2.png')
+car = pygame.image.load('SeekPng.com_car-top-view-png_544318.png')
 car= pygame.transform.scale(car,(40,60))
 car_x = 155
 car_y =300
