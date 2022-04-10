@@ -10,5 +10,5 @@ while drive :
         if event.type == pygame.QUIT:
             drive= False
     window.blit(track, (0, 0))
-    window.blit(car, (150, 200))
+    window.blit(car, (150,0))
     pygame.display.update()

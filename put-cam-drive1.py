@@ -14,7 +14,11 @@ while drive :
     for event in pygame.event.get() :
         if event.type == pygame.QUIT:
             drive= False
-    car_y = car_y - 2
+
+    cam_x = car_x + 19
+    cam_y = car_y + 15
+    #car_y = car_y - 2
     window.blit(track, (0, 0))
     window.blit(car, (car_x, car_y))
+    pygame.draw.circle(window,(0 ,255 ,0),(cam_x, cam_y),5 ,5)
     pygame.display.update()
